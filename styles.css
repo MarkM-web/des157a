@@ -16,3 +16,34 @@ h1, h2, h3, p, ul, ol{
 }
 
 /* End reset */
+body{
+    background-color: #111;
+}
+
+main{
+    display: flex;
+    /* gap: 20px; */
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-evenly;
+
+    border: 1px red solid;
+}
+ main ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 500px;
+    /* gap: 20px; */
+ }
+
+ /* main ul li { */
+    /* background-color: red; */
+ /* } */
+
+ main ul li a{
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
+    font-family: 'Courier New', Courier, monospace;
+ }
