@@ -19,31 +19,62 @@ h1, h2, h3, p, ul, ol{
 body{
     background-color: #111;
 }
+header{
+    min-height: 250px;
+    background-image: url(./images/crt.png);
+    background-size: 100% 100%;
+}
+h1, h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    padding-top: 80px;
+}
 
 main{
     display: flex;
     /* gap: 20px; */
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* padding-top: 10px; */
 
-    border: 1px red solid;
+    /* border: 1px red solid; */
+}
+nav {
+    border: 1px white dashed;
+    flex:1;
+}
+h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-align: center; */
+    padding: 20px 50px ;
 }
  main ul {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-direction: column;
-    min-height: 500px;
+    min-height: 400px;
+    padding: 0 50px ;
+
+    /* border: 1px green solid; */
+
     /* gap: 20px; */
  }
 
- /* main ul li { */
-    /* background-color: red; */
- /* } */
+ main ul li {
+    margin-bottom: 20px;
+ }
 
  main ul li a{
     text-decoration: none;
     color: white;
     /* background-color: red; */
+    /* padding: 10px; */
     font-family: 'Courier New', Courier, monospace;
  }
