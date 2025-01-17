@@ -85,6 +85,10 @@ h3{
 
  main ul li {
     margin-bottom: 20px;
+    /* animation-name: blinking;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+
  }
 
  main ul li a{
@@ -131,6 +135,7 @@ footer{
  @keyframes blinking {
     25%{
         text-decoration: underline;
+        /* list-style-type: ; */
     }
     50%{
         text-decoration: none;
