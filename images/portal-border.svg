@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: CourierNewPSMT, 'Courier New';
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <text class="cls-1" transform="translate(3.09 6.55)"><tspan x="0" y="0">------</tspan></text>
+      <text class="cls-1" transform="translate(3.09 50.55)"><tspan x="0" y="0">------</tspan></text>
+      <text class="cls-1" transform="translate(-1.18 9.57)"><tspan x="0" y="0">|</tspan><tspan x="0" y="12">|</tspan><tspan x="0" y="24">|</tspan><tspan x="0" y="36">|</tspan></text>
+      <text class="cls-1" transform="translate(43.82 9.57)"><tspan x="0" y="0">|</tspan><tspan x="0" y="12">|</tspan><tspan x="0" y="24">|</tspan><tspan x="0" y="36">|</tspan></text>
+    </g>
+  </g>
+</svg>
