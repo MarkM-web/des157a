@@ -25,13 +25,27 @@ header{
     background-size: 100% 100%;
 }
 h1, h2{
-    text-align: center;
+    /* text-align: center; */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Sixtyfour", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" -24;  
+    padding-top: 10px;
+}
+
+header div{
+    max-width: 1000px;
+    /* border: red 1px solid; */
+    margin: auto;
 }
 
 h1{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 main{
@@ -77,4 +91,67 @@ h3{
     /* background-color: red; */
     /* padding: 10px; */
     font-family: 'Courier New', Courier, monospace;
+ }
+
+ main ul li a:hover{
+    animation-name: blinking;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+ }
+
+ main ul li a:active{
+    background-color: white;
+    color: #111;
+    text-decoration: none;
+    animation-name: access; 
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+ }
+
+ #cursor{
+    animation-name: cursorBlink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+ }
+
+
+ @keyframes blinking {
+    25%{
+        text-decoration: underline;
+    }
+    50%{
+        text-decoration: none;
+    }
+    75%{
+        text-decoration: underline;
+    }
+ }
+
+ @keyframes cursorBlink {
+    25%{
+        display: none;   
+    }
+    50%{
+    }
+    75%{
+        display: none;
+    }
+ }
+
+ @keyframes access {
+    25%{    
+        background-color: white;
+        color: #111;
+        /* text-decoration: none; */
+    }
+    50%{
+        /* text-decoration: none; */
+        background-color: #111;
+        color: white;
+    }
+    75%{
+        /* text-decoration: none; */
+        background-color: white;
+        color: #111;
+    }
  }
