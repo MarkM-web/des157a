@@ -15,9 +15,9 @@
     <link href="styles.css" rel="stylesheet">    
 </head>
 <body>
-    <div class="main">
+    <div class="main hidden">
         <section id="image">
-            <img src="/madlibs/v1/images/500x500PH.png">
+            <img src="/madlibs/v1/images/500x500PH.png" alt="A cool tech gadget">
         </section>
         <section id="text">
             <article>
@@ -30,13 +30,14 @@
         </section>
     </div>
 
-    <div class="overlay" id="ol1">
-        <h2>give me a...</h2>
+    <div class="overlay showing" id="ol1">
+        <h2>Question 1...</h2>
         <p>Noun</p>
-        <input type="text" id="noun" name="noun"><br>
+        <input type="text" id="noun" name="noun" placeholder="Enter here..." >
         <div class="controls">
-            <a href="#">back</a>
-            <a href="#">next</a>
+            <button id="back1">Back</button>
+            <p>1/x</p>
+            <button id="next1">Next</button>
         </div>
     </div>
     

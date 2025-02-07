@@ -83,7 +83,16 @@ section{
     gap: 30px;
 
     /* ----------toggle here----------- */
-    display: none;
+    /* display: none; */
+}
+
+input{
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: large;
+    border-radius: 0;
+    border-style: solid;
+    border-color: black;
 }
 
 .controls{
@@ -91,17 +100,30 @@ section{
     gap: 50px;
 }
 
-.controls a{
-    text-decoration: none;
-    background-color: white;
+.controls button{
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: large;
     padding: 10px 20px;
-    border: 7px black solid;
+    border-radius: 0;
+    border-color: black;
+    border-width: 5px;
+    background-color: white;
+    border-style: solid;
+}
+
+.controls button:hover{
+    background-color: black;
+    color: white;
+}
+
+.controls button:active{
+    background-color: #f3e600;
     color: black;
 }
 
-.controls a:hover{
-    background-color: black;
-    color: white;
+.controls p{
+    padding-top: 10px;
 }
 
 
@@ -122,11 +144,12 @@ h2{
     font-size: x-large;
 }
 
-p, a{
+p{
     font-family: "Raleway", serif;
     font-weight: 300;
     font-size: large;
 }
+
 
 
 /* .raleway-<uniquifier> {
@@ -135,3 +158,13 @@ p, a{
     font-weight: <weight>;
     font-style: normal;
   } */
+
+
+.hidden{
+    display: none;
+}
+
+.showing{
+    display: flex;
+
+}
