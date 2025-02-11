@@ -100,7 +100,7 @@ input{
     gap: 50px;
 }
 
-.controls button{
+button{
     font-family: "Raleway", serif;
     font-weight: 400;
     font-size: large;
@@ -112,14 +112,14 @@ input{
     border-style: solid;
 }
 
-.controls button:hover{
-    background-color: black;
-    color: white;
-}
-
-.controls button:active{
+ button:hover{
     background-color: #f3e600;
     color: black;
+}
+
+ button:active{
+    background-color: #f3e600;
+    color: white;
 }
 
 .controls p{
