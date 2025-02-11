@@ -65,6 +65,10 @@
             // change html
             // console.log(myword);
             document.querySelector(`#word${step}`).innerHTML = myword;
+            if(myword === 'supersecretpassword' && step == 1){
+                document.querySelector('#olG').className = 'overlay hidden';
+                document.querySelector('.main').className = 'main showing';    
+            }
             //prompt inner html change to prompt array step
             document.querySelector('#prompt').innerHTML = prompts[step]; //updates next
             document.getElementById("inG").value = '';
