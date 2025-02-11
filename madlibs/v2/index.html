@@ -13,33 +13,48 @@
 
     <!-- My stylesheet -->
     <link href="styles.css" rel="stylesheet">    
+    <!-- JS -->
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="main showing">
+    <div class="main hidden">
         <section id="image">
-            <img src="/madlibs/v1/images/500x500PH.png" alt="A cool tech gadget">
+            <img src="/madlibs/v2/images/CoolTech1K.png" alt="A cool tech gadget">
         </section>
         <section id="text">
             <article>
-                <h2>Introducing the &lt;tech product&gt;</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore culpa, quaerat sed in, alias cum unde quisquam id minima, molestiae corporis! Adipisci velit iusto deserunt, blanditiis voluptas inventore quasi saepe!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis aliquid ipsa ab praesentium facere quas delectus a, explicabo minima autem. Consequuntur iusto omnis recusandae earum nam quo assumenda! Nemo.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque numquam, deserunt voluptas velit possimus repellendus dolorum expedita perspiciatis cumque. Maxime commodi eaque eum ut sit quos pariatur, consequuntur molestiae aperiam!</p>
-                <p>Buy yours now at all major retailers!</p>
+                <h2>Introducing the <span id="titleword">BLANK</span>-o-matic</h2>
+
+                <p>
+                    Introducing the all-new <span id="word1">BLANK</span>-o-matic! This <span id = "word2"> BLANK </span> device is designed to make your <span id="word3">BLANK</span> easier and more <span id="word4">BLANK</span> than ever before. Equipped with a <span id="word5">BLANK</span>-megapixel <span id="word6">BLANK</span>, it is perfect for capturing <span id="word7">BLANK</span> moments on the go.
+                </p>
+
+                <p>
+                    With its <span id="word8">BLANK</span>-powered <span id="word9">BLANK</span>, you’ll enjoy <span id="word10">BLANK</span> speeds and seamless multitasking. Plus, its <span id="word11">BLANK</span> battery lasts for <span id="word12">BLANK</span> hours, keeping you <span id="word13">BLANK</span> all day long.
+                </p>
+
+                <p>
+                    Whether you’re <span id="word14">BLANK</span>, <span id="word15">BLANK</span>, or just <span id="word16">BLANK</span>, the <span id="word1a">BLANK</span>-o-matic! has you covered. Don’t miss out on this <span id="word17">BLANK</span> piece of technology!
+                </p>
+
+                <p>
+                    Order now to get a <span id="word18">BLANK</span> <span id="word19">BLANK</span> with your purchase.
+                </p>
+
                 <button id="reset">Start Over</button>
 
             </article>
         </section>
     </div>
 
-    <div class="overlay hidden" id="ol1">
-        <h2>Question 1...</h2>
-        <p>Noun</p>
-        <input type="text" id="noun" name="noun" placeholder="Enter here..." >
+    <div class="overlay showing" id="olG">
+        <h2>Please enter a...</h2>
+        <p id="prompt">Noun</p>
+        <input type="text" id="inG" name="inG" placeholder="Enter here..." >
         <div class="controls">
-            <button id="back1">Back</button>
-            <p>1/x</p>
-            <button id="next1">Next</button>
+            <button id="backG">Back</button>
+            <p id="progress">1/x</p>
+            <button id="nextG">Next</button>
         </div>
     </div>
     

@@ -19,7 +19,7 @@ h1, h2, h3, p, ul, ol{
 
 body{
     /* display: flex; */
-    background-color: #999;
+    background-color: #222;
     max-width: 1250px;
     margin: auto;
     padding-top: 5px;
@@ -33,16 +33,16 @@ section{
 }
 
 #image{
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #text{
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #111;
 }
 
 #text article{
@@ -100,12 +100,19 @@ input{
     gap: 50px;
 }
 
+.controls #progress{
+    /* border: red 1px solid; */
+    min-width: 100px;
+    text-align: center;
+}
+
 button{
     font-family: "Raleway", serif;
     font-weight: 400;
     font-size: large;
     padding: 10px 20px;
     border-radius: 0;
+    color: black;
     border-color: black;
     border-width: 5px;
     background-color: white;
@@ -119,7 +126,7 @@ button{
 
  button:active{
     background-color: #f3e600;
-    color: white;
+    color: black;
 }
 
 .controls p{
@@ -130,6 +137,7 @@ button{
 h2{
     font-family: "Raleway", serif;
     font-weight: 600;
+    color: black;
 }
 
 #text article h2{
@@ -148,8 +156,16 @@ p{
     font-family: "Raleway", serif;
     font-weight: 300;
     font-size: large;
+    color: black;
 }
 
+span{
+    /* color: #f3e600; */
+    text-decoration: underline;
+    text-decoration-color: #f3e600;
+    text-decoration-thickness: 3px;
+    font-weight: 600;
+}
 
 
 /* .raleway-<uniquifier> {
@@ -166,5 +182,4 @@ p{
 
 .showing{
     display: flex;
-
 }
