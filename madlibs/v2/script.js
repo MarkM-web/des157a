@@ -11,7 +11,7 @@
     //     "four"
     // ]
 
-    let prompts = [
+    const prompts = [
         "Verb",
         "Adjective",
         "Noun",
@@ -27,7 +27,7 @@
         "Number",
         "Verb ending with ing",
 
-        "Verb ending with ing",
+        "A different Verb ending with ing",
         "Another verb ending with ing",
         "A third verb ending with ing",
         "Adjective",
