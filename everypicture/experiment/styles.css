@@ -75,20 +75,21 @@ article div {
 .ap7{top: calc(100px - 6 * 100vh);}
 .ap8{top: calc(100px - 7 * 100vh);}
 
-.desc1 h1{
-    margin-top: 300px;
-    margin-left: 50px;
+.desc1 figcaption{
+    margin-top: 45%;
+    margin-left: 5%;
 }
 
-.desc1 p{
-    margin-left: 50px;
-}
+/* .desc1 p{
+    margin-left: 5%;
+} */
 
 
 
 article div{
     border: 1px red solid;
     min-height: calc(100svh - 100px);
+    max-height: calc(100svh - 100px);
     max-width: 450px;
 }
 
