@@ -50,6 +50,8 @@ window.addEventListener('load', function () {
             }
             document.querySelector(`#section0${counter}`).className = 'onscreen';
             document.querySelector('img').className = `rp${counter}`
+            document.querySelector('article').className = `ap${counter}`
+
     }
 
     window.addEventListener('resize', function () {
