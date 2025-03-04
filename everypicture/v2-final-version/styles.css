@@ -76,16 +76,18 @@ article{
     flex-direction: column;
     gap: 0;
     transition: all 1s;
+    /* border-left: 2px #000; */
 }
 
 article div {
     position: relative;
-    border: 1px red solid;
+    border-left: 1px black solid;
     min-height: calc(100svh );
     max-height: calc(100svh );
     max-width: 450px;
+    background-color: #ddd;
 }
-.ap1{top: calc(0px - 0 * 110vh);}
+.ap1{top: calc(0px - 0 * 100vh);}
 .ap2{top: calc(0px - 1 * 100vh);}
 .ap3{top: calc(0px - 2 * 100vh);}
 .ap4{top: calc(0px - 3 * 100vh);}
