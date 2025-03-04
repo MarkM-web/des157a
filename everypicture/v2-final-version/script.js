@@ -37,14 +37,14 @@ window.addEventListener('load', function () {
         document.querySelector('body').className = myStyle;
 
         switch(counter){
-            case 1: headerP.innerHTML = "The first section is on the page"; break;
-            case 2: headerP.innerHTML = "The second section is on the page"; break;
-            case 3: headerP.innerHTML = "The third section is on the page"; break;
-            case 4: headerP.innerHTML = "The fourth section is on the page"; break;
+            case 1: headerP.innerHTML = "Wera Kraftform Kompakt 25"; break;
+            case 2: headerP.innerHTML = "Gerber Multi-Plier 600 Bladeless"; break;
+            case 3: headerP.innerHTML = "iFixit Minnow Driver Kit with a lttstore.com Precision Screwdriver"; break;
+            case 4: headerP.innerHTML = "Miniware TS80P smart soldering iron"; break;
             case 5: headerP.innerHTML = "The fifth section is on the page"; break;
             case 6: headerP.innerHTML = "The sixth section is on the page"; break;
             case 7: headerP.innerHTML = "The 7th section is on the page"; break;
-            case 8: headerP.innerHTML = "The 8th section is on the page"; break;
+            case 8: headerP.innerHTML = "Oh No I Don't Have Anything Here Yet"; break;
             default: headerP.innerHTML = "Ooops something went wrong!"; break;
         }
 

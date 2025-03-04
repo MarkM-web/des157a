@@ -71,17 +71,21 @@ section {
 
 article{
     position: fixed;
-    left: 55%;
+    left:65%;
     display: flex;
     flex-direction: column;
     gap: 0;
     transition: all 1s;
     /* border-left: 2px #000; */
+    border-left: 4px black solid;
+    background-color: #ddd;
+    min-width: 1000px;
+
 }
 
 article div {
     position: relative;
-    border-left: 1px black solid;
+    /* border-left: 4px black solid; */
     min-height: calc(100svh );
     max-height: calc(100svh );
     max-width: 450px;
@@ -96,7 +100,7 @@ article div {
 .ap7{top: calc(0px - 6 * 100vh);}
 .ap8{top: calc(0px - 7 * 100vh);}
 
-.desc1 figcaption{
+ figcaption{
     margin-top: 45%;
     margin-left: 5%;
 }
