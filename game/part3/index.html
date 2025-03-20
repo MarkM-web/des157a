@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Normalized stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap" rel="stylesheet">
+    <!-- My stylesheet -->
+    <link href="styles.css" rel="stylesheet">    
+
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="overlay hidden">
+        <p>heres how to play the game.</p>
+        <button id="startgame">Start Game</button>
+    </div>
+    <div class="mainarea">
+        <div class="table">
+            <div id="dice1">
+                <img src="images/4die.png" alt="Die number 1">
+            </div>
+            <div id="dice2">
+                <img src="images/2die.png" alt="die number 2">
+            </div>
+        </div>
+        <div class="p1 ctrl">
+            <!-- buttons -->
+            <div class="BC1">
+                <button id="p1roll">Roll P1</button>
+                <button id="p1pass">Pass P1</button>   
+            </div>
+            <div class="p1lab">
+                <img src="images/p1light.png" alt="label for player 1">
+            </div>
+        </div>
+        <div class="p2 ctrl">
+            <div class="BC2">
+                <button id="p2roll">Roll P2</button>
+                <button id="p2pass">Pass P2</button>    
+            </div>
+            <div class="p2lab">
+                <img src="images/p2bold.png" alt="label for player 1">
+            </div>
+
+        </div>
+        <div class="score">
+            <img src="images/score.png" alt="score label">
+            <div class='score1'>23</div>
+            <div class="score2">12</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* CSS Reset */
+
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+/* End reset */
+
+:root {
+    --myleftmargin: 0px;
+  }
+/* variables end */
+body{
+    background-color: #ddd;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.mainarea{
+    position: relative;
+    justify-content: center
+}
+
+.table{
+    position: absolute;
+    background-color: #ffba08;
+    width: 1200px;
+    height: 450px;
+    left: 0;
+}
+
+#dice1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top:75px;
+    left: 200px;
+    /* background-color: antiquewhite; */
+}
+
+#dice2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top:75px;
+    left: 700px;
+    /* background-color: antiquewhite; */
+}
+
+.ctrl{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 450px;
+}
+
+.p1{
+    left: 0;
+    background-color: #d00000;
+}
+
+.p2{
+    left: 600px;
+    background-color: #ffba08;
+}
+
+.score{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 500px;
+    left: 400px;
+    background-color: aliceblue;
+}
+
+.score1{
+    position: absolute;
+    top:80px;
+    left:70px;
+    font-size: 80px;
+}
+
+.score2{
+    position: absolute;
+    top:80px;
+    right:70px;
+    font-size: 80px;
+}
+
+.BC1{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.BC2{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p1lab{
+    position: absolute;
+    width: 300px;
+    top:210px;
+    left: 50px;
+}
+
+.p2lab{
+    position: absolute;
+    width: 300px;
+    top:210px;
+    right: 50px;
+}
+button{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+button:active{
+    background-color: #222;
+}
+
+.hidden{
+    display: none;
+}
+
+.shown{
+    display: unset;
+}
