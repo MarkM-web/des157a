@@ -1,0 +1,243 @@
+/* CSS Reset */
+
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+/* End reset */
+
+:root {
+    --myleftmargin: 0px;
+  }
+/* variables end */
+body{
+    /* background-color: #ddd; */
+    background-image: url(images/pigtile.png);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .overlay{ */
+    /* position: relative; */
+    /* top:100px; */
+    /* left :100px; */
+/* } */
+
+.overlay{
+    background-color: white;
+    border: black solid 4px;
+    width: 600px;
+    height:300px;
+    z-index: 99;
+    position: absolute;
+    left:300px;
+    top:50px;
+}
+
+.olcontent{
+    /* background-color: rebeccapurple; */
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.olcontent p, .olcontent h2{
+    padding-bottom: 10px;
+}
+
+
+.winnermsg{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    /* background-color: ; */
+}
+
+.winnermsg h1{
+    font-size: 70px;
+}
+
+.mainarea{
+    position: relative;
+    justify-content: center
+}
+
+.table{
+    position: absolute;
+    width: 1200px;
+    height: 450px;
+    left: 0;
+
+    transition: all 0.5s;
+}
+
+.table1{
+    background-color: #d00000;
+}
+
+.table2{
+    background-color: #ffba08;
+}
+
+#dice1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top:50px;
+    left: 200px;
+    /* background-color: antiquewhite; */
+}
+
+#dice2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top:50px;
+    left: 700px;
+    /* background-color: antiquewhite; */
+}
+
+.title{
+    position: absolute;
+    width: 1000px;
+    left:300px;
+    top:366px;
+    width:600px;
+}
+
+.btndiv button{
+    width: 150px;
+    height: 50px;
+    border: 2px black solid;
+}
+
+.startdiv{
+    position: absolute;
+    top:380px;
+    left: 70px;
+}
+
+.resetdiv{
+    position: absolute;
+    top:380px;
+    right:70px;
+}
+
+.ctrl{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 450px;
+}
+
+.p1{
+    left: 0;
+    background-color: #d00000;
+}
+
+.p2{
+    left: 600px;
+    background-color: #ffba08;
+}
+
+.score{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 500px;
+    left: 400px;
+    background-color: aliceblue;
+    border: black solid 2px;
+}
+
+.score1{
+    position: absolute;
+    top:80px;
+    left:70px;
+    font-size: 80px;
+}
+
+.score2{
+    position: absolute;
+    top:80px;
+    right:70px;
+    font-size: 80px;
+}
+
+.BC1{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.BC2{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.p1lab{
+    position: absolute;
+    width: 300px;
+    top:210px;
+    left: 50px;
+}
+
+.p2lab{
+    position: absolute;
+    width: 300px;
+    top:210px;
+    right: 50px;
+}
+.BC1 button, .BC2 button{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+button{
+    font-size: xx-large;
+}
+
+button:hover:enabled{
+    background-color: aliceblue;
+}
+
+button:active:enabled{
+    background-color: #222;
+}
+
+button:disabled{
+    background-color: #ccc;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.shown{
+    display: unset;
+}

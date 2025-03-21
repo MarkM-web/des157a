@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Normalized stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap" rel="stylesheet">
+    <!-- My stylesheet -->
+    <link href="styles.css" rel="stylesheet">    
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="overlay intro shown">
+        <div class="olcontent">
+            <h2>Hello and welcome to the game of pig.</h2>
+            <p>Here are the rules of the game: Playes take turns to roll the dice. The total of the roll is added to the current player's score.</p>     
+            <p>After each roll, the current player can either roll again, (assuming a “one” was not rolled) or pass to the other player. </p>
+            <p>If a player rolls a “one”, their turn is over, and it is the other player's turn.</p>
+            <p>If a player rolls two “ones” (snake eyes), that player's current score gets zeroed out.</p>
+            <p>The first player to get 30 points or higher wins.</p>
+            <p>Press "Start" to the bottom left to start the game</p>
+
+        </div>
+        <!-- <button id="startgame">Start Game</button> -->
+    </div>
+    <div class="overlay winner hidden">
+        <div class="winnermsg">
+            <h1>Player <span class="winnerid">0</span> won!</h1>
+        </div>
+    </div>
+    <div class="mainarea">
+        <div class="table table1">
+            <div id="dice1">
+                <img src="images/blankdie.png" alt="Die number 1">
+            </div>
+            <div id="dice2">
+                <img src="images/blankdie.png" alt="die number 2">
+            </div>
+            <div class="title">
+                <img src="images/title.png" alt="game of pig">
+            </div>
+            <div class="startdiv btndiv">
+                <button id="startgame">Start</button>
+            </div>
+            <div class="resetdiv btndiv">
+                <button id="resetgame" disabled>Reset</button>
+            </div>
+        </div>
+        <div class="p1 ctrl">
+            <!-- buttons -->
+            <div class="BC1">
+                <button id="p1roll" disabled>Roll</button>
+                <button id="p1pass" disabled>Pass</button>   
+            </div>
+            <div class="p1lab">
+                <img src="images/p1light.png" alt="label for player 1">
+            </div>
+        </div>
+        <div class="p2 ctrl">
+            <div class="BC2">
+                <button id="p2roll" disabled>Roll</button>
+                <button id="p2pass" disabled>Pass</button>    
+            </div>
+            <div class="p2lab">
+                <img src="images/p2light.png" alt="label for player 1">
+            </div>
+
+        </div>
+        <div class="score">
+            <img src="images/score.png" alt="score label">
+            <div class='score1'>0</div>
+            <div class="score2">0</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
